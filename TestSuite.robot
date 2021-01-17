@@ -12,6 +12,7 @@ Validate Grocery Shoppe Home Page
   Maximize Browser Window
   Input Text    //div[@class="input-group mt-3"]/input[@name="zipcode"]     11208
   Click Element   //*[@class="search-btn modal_zip"]
+  Wait until Element is Visible     //div[text()="Delivery available in this area"]  20   Deliver Is not avaliable in this area
   Wait until Element is Visible   //a[text()="Produce"]   20  Home Page Did Not Load
   Capture Page Screenshot
 
