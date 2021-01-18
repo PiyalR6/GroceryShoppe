@@ -1,7 +1,8 @@
 *** Settings ***
 Library   Selenium2Library
-Library  FakerLibrary
+Library   FakerLibrary
 Resource  Pages/HomePage.robot
+Resource  Pages/LoginPage.robot
 
 
 
@@ -11,11 +12,13 @@ Validate Grocery Shoppe Home Page
   [Tags]  Piyal
   Validate Grocery Shoppe Home Page
 
-Register User
+#Register User
+#   [Tags]  Piyal
+#   Register User
+
+Login
    [Tags]  Piyal
-   Register User
-
-
+   Login
 
 
 
