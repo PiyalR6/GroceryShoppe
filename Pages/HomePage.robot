@@ -32,3 +32,10 @@ Register User
   Click Element     //input[@name="btnlogin"]
   Sleep  5
   Close Browser
+
+
+Click on Quick View
+    Mouse Over      //div[@class='preview-image-overlay']
+    Click Element    //button[contains(text(),'Quick View')]
+    Sleep   5
+    Capture Page Screenshot

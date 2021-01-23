@@ -8,3 +8,6 @@ Login
   Input Text       //input[@name="login_password"]    password
   Click Element    //input[@name="btnlogin"]
   Wait until Element is Visible   //div[@class="cart-heading wish"]/h1[text()='My Account']   20  My Account Did Not Load in The Logon Page
+  Sleep    4
+  Click ELement      //img[@class='img-fluid']
+  #Close Browser

@@ -20,6 +20,10 @@ Login
    [Tags]  Piyal
    Login
 
+Click on Quick View
+  [Tags]  Piyal
+   Click on Quick View
+
 
 
 *** Variables ***
